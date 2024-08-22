@@ -8,15 +8,15 @@ import axios from 'axios'
 global.owner = [
   ['918360234087', 'WHITE', true], 
   ['233208179431', 'Abraham Dwamena', true],
-  ['923184070915', '𝙎𝘼𝙇𝙈𝘼𝙉 𝘼𝙃𝙈𝘼𝘿 -(𝘼𝙝𝙢𝙢𝙞)', true], 
+  ['2348119001999', 'EMMANUEL', true], 
   ['94789481495', '𝙼𝚉𝙽 𝙺𝙸𝙽𝙶 ⚡', true],
   ['233533763772', 'Abraham Dwamena2', true],
   ['233268374753', 'Abraham Dwamena3', true]
 ] //Number of owners
 
-global.mods = ['923184070915', '94789481495', '923184474176', '233268374753', '233508488192'] 
-global.prems = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753']
-global.allowed = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753']
+global.mods = ['923184070915', '94789481495', '923184474176', '233268374753', '233508488192', '2348119001999'] 
+global.prems = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753' , '2348119001999']
+global.allowed = ['923184070915', '233208179431', '94789481495', '918360234087', '233268374753', '2348119001999']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = global.keysZens[Math.floor(global.keysZens.length * Math.random())]
 global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c71a2fb', '5bd33b276d41d6b4', 'HIRO', 'kurrxd09', 'ebb6251cc00f9c63']
@@ -25,6 +25,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = global.keysneoxrrr[Math.floor(global.keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 global.beta = 'mLxstUwm'
+global.SESSION_ID = process.env.SESSION_ID  || "Xlicon_c1aa001d-f2d6-437c-9a0a-4983e014a5ab"
 
 global.APIs = { // API Prefix
   xteam: 'https://api.xteam.xyz', 
