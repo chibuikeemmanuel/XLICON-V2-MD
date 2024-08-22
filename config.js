@@ -4,6 +4,12 @@ import { fileURLToPath } from 'url'
 import fs from 'fs'
 import fetch from 'node-fetch'
 import axios from 'axios'
+global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.save_status = process.env.AUTO_SAVE_STATUS || "true"
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "null,923xxxxxxxx";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "923184474176,923xxxxxxxx";
+global.email ="0syagbatac@gmail.com"
+global.location="Nigeria,Anambra"
 
 global.owner = [
   ['918360234087', 'WHITE', true], 
